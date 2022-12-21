@@ -52,3 +52,20 @@ let meuProduto: ProdutoLoja = {
     preço: 25.90,
     unidades: 10,
 }
+
+//Trabalhando com Array
+let dados: string[] = ["Fernando", "Roberto", "Carlos"];
+let dados2: Array<string> = ["Adalberto","Juliano","Carlos Magno"]
+
+//Array de múltiplos tipos
+let infos: (string | number | boolean)[]=["Julio Cesar", 49, true]
+
+//Tuplas
+let boleto: [number, string, number] = [20,"dezembro",2022];
+
+//Métodos do Javascript servem todos para o Typescript
+dados.pop();
+
+//Trabalhando com datas
+let meuAniversario: Date = new Date("2002-06-25 13:00");
+console.log(meuAniversario.toString());
