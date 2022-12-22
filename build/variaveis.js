@@ -1,0 +1,10 @@
+"use strict";
+let Nome = "Fernando";
+let Idade = 20;
+let Altura = 1.85;
+let ligado = true;
+let nulo = null;
+let indefinido = undefined;
+let vazio;
+let qualquerCoisa = "Literalmente qualquer coisa";
+let qualquerNumero = 40352;
